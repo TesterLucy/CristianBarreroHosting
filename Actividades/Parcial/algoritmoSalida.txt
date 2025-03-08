@@ -1,0 +1,12 @@
+PS E:\Universidad\Semestre 1\Introduccion a la IA\Parcial> py algoritmo.py
+1. Ruta MÁS RÁPIDA (minimiza el tiempo total):
+Bogotá → Tunja → Chía → Tabio → La Vega → Fusagasugá → Ibagué → Girardot → Barbosa → Bogotá
+Tiempo total estimado: 1420 minutos (~23.67 horas)
+
+2. Ruta MÁS CORTA (minimiza la distancia total):
+Bogotá → Fusagasugá → Girardot → Ibagué → La Vega → Tabio → Chía → Tunja → Barbosa → Bogotá
+Distancia total estimada: 1128.1 km
+
+3. Ruta BALANCEADA (minimiza el costo combinado de tiempo + distancia):
+Bogotá → Tunja → Chía → Tabio → La Vega → Fusagasugá → Girardot → Ibagué → Barbosa → Bogotá
+Costo combinado estimado: 2608.3 (minutos + km)

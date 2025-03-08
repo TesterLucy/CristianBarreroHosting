@@ -1,0 +1,223 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: background-color 0.3s ease-in-out;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+}
+
+/* Animación subrayado en enlaces */
+nav ul li a::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav ul li a:hover {
+    color: #f4a261;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* Sección de proyectos */
+#projects {
+    padding: 50px 20px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* Sección de contacto */
+#contact {
+    padding: 50px 20px;
+    background-color: #ddd;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: static, fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para la página "Sobre mí" */
+.about-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-container h2 {
+    color: #333;
+}
+
+.about-container p {
+    text-align: justify;
+    line-height: 1.6;
+}
+/* Sección de recursos */
+#resources {
+    padding: 20px;
+    text-align: center;
+}
+
+#file-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#file-list li {
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Botones para cada semana */
+.week-btn {
+    background: #333;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    transition: background 0.3s;
+}
+
+.week-btn:hover {
+    background: #f4a261;
+}
+
+/* Submenú */
+.submenu {
+    list-style: none;
+    padding: 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: none;
+}
+
+.submenu li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.submenu li:last-child {
+    border-bottom: none;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    transition: color 0.3s;
+}
+
+.submenu a:hover {
+    color: #f4a261;
+}
+
+/* Contenedor del PDF */
+#pdf-container {
+    margin: 40px auto;
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: none; /* se mostrará cuando el user clickee un PDF */
+}
+
+#pdf-container h3 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* El iframe del PDF */
+#pdf-viewer {
+    width: 100%;               /* Ajusta el ancho del iframe al contenedor */
+    height: 700px;            /* Puedes ajustar la altura a tu gusto */
+    border: none;             /* Quita el borde para un look más limpio */
+}
+
+/* Opcional: diseño responsivo para pantallas más pequeñas */
+@media (max-width: 600px) {
+    #pdf-viewer {
+        height: 500px;        /* Reduce la altura en pantallas pequeñas */
+    }
+}
