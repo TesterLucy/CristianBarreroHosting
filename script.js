@@ -37,6 +37,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 label: "Parcial IA (PDF)",
                 path: "../Actividades/Parcial/Parcial_IA.pdf"
             }
+        ],
+        "Articulo": [
+            {
+                label: "Articulo 10",
+                path: "../Actividades/Articulo/Preliminares.pdf"
+            },
+            {
+                label: "Resumen del Articulo",
+                path: "../Actividades/Articulo/Resumen.pdf"
+            }
+        ],
+        "Proyecto Imagenes": [
+            {
+                label: "Modelo",
+                path: "../Actividades/ProImagenes/Modelo.pdf"
+            }
         ]
     };
 
