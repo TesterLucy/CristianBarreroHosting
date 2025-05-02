@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Parcial 2": [
             {
                 label: "Parcial2",
-                path: "../Actividades/Parcial2/Resultadoencuestas.pdf"
+                path: "../Actividades/Parcial2/ResultadoEncuestas.pdf"
             }
         ]
     };
