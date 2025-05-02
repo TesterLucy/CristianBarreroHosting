@@ -53,6 +53,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 label: "Modelo",
                 path: "../Actividades/ProImagenes/Modelo.pdf"
             }
+        ],
+        "Parcial 2": [
+            {
+                label: "Parcial2",
+                path: "../Actividades/Parcial2/Resultadoencuestas.pdf"
+            }
         ]
     };
 
