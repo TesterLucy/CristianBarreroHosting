@@ -59,6 +59,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 label: "Parcial2",
                 path: "../Actividades/Parcial2/ResultadoEncuestas.pdf"
             }
+        ],
+        "Actividad de Mesa redonda": [
+            {
+                label: "Mesa Redonda",
+                path: "../Actividades/Mesa Redonda/MESAREDONDA.pdf"
+            }
         ]
     };
 
