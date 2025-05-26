@@ -65,6 +65,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 label: "Mesa Redonda",
                 path: "../Actividades/Mesa Redonda/MESAREDONDA.pdf"
             }
+        ],
+        "Parcial 3": [
+            {
+                label: "Automatizacion",
+                path: "../Actividades/Parcial3/ProyectoAutomatizacionCristianBarrero.pdf"
+            }
         ]
     };
 
