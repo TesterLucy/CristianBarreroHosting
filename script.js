@@ -66,6 +66,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 path: "../Actividades/Mesa Redonda/MESAREDONDA.pdf"
             }
         ],
+        "Etica de la IA": [
+            {
+                label: "Actividad de las 50 preguntas",
+                path: "../Actividades/50Preguntas/Etica50Preguntas.pdf"
+            }
+        ],
         "Parcial 3": [
             {
                 label: "Automatizacion",
